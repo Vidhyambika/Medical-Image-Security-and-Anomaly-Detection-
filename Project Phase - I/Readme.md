@@ -14,5 +14,5 @@ This folder contains the deliverables for **Phase I** of the project titled *Med
 
 
 ## 🧑‍💻 Author  
-**Vidhyambika**  
+**Vidhyambika SR**  
 GitHub: [@Vidhyambika](https://github.com/Vidhyambika)  

@@ -6,6 +6,6 @@ PG Final Year Project
 2. [Comparison of Hybrid Encryption Algorithms for 2D Medical Image Security](https://psgcare.org/wp-content/uploads/2024/12/Proceedings-ICABSHT-2024-Final.pdf)
 
 ## 🧑‍💻 Author  
-**Vidhyambika**  
+**Vidhyambika SR**  
 GitHub: [@Vidhyambika](https://github.com/Vidhyambika)  
 

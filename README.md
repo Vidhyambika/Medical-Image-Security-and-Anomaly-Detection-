@@ -1,6 +1,6 @@
-# Medical Image Security and Anomaly Detection
-PG Final Year Project
+# Medical Image Security and Anomaly Detection - PG Final Year Project
 
+## PHASE 1:
 For 2D Medical Image Security,
 I built the following 7 novel Hybrid encryption algorithms and the encryption time taken for 1 image by each algorithm is as follows:
 
@@ -19,6 +19,7 @@ MSE = 0, SSIM = 1, PSNR = infinity (as no noise added and noise whenever gets ad
 
 All algorithms scores entropy value >7.4 out of 8.
 
+## PHASE 2:
 For anomaly detection,
 I built the following 2 ensembled deep learning algorithms:
 1. Autoencoders + CNN

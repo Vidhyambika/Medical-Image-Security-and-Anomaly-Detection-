@@ -1,8 +1,28 @@
 # Medical Image Security and Anomaly Detection
 PG Final Year Project
 
-## Abstract:
-With the growing reliance on digital healthcare, safeguarding medical images is crucial to protect patient privacy, ensure trust, and prevent data tampering. This project enhances medical image security using hybrid encryption and hashing algorithms, including RSA+AES+SHA-256, ECC+AES+SHA-256, AES+SHA-256, DNA Cryptography+AES, Blowfish+SHA-256, Chaotic Maps+AES, and DES+AES+MD5. Medical images in formats like DICOM and JPEG are encrypted, ensuring compliance with HIPAA, GDPR, and India’s Digital Personal Data Protection Act. These algorithms are evaluated using metrics like PSNR, SSIM, MSE, entropy, edge preservation, and encryption time, achieving SSIM of 1.0, PSNR as infinity, MSE as 0, entropy > 7, and encryption times under 1 ms (per image). Additionally, deep learning-based anomaly detection analyzes large datasets to identify unauthorized alterations and transmission errors, enabling real-time detection of compromised images. This approach ensures robust security, preserves image quality, minimizes encryption time, and protects against attacks like brute-force, cryptanalysis, and data breaches.
+For 2D Medical Image Security,
+I built the following 7 novel Hybrid encryption algorithms and the encryption time taken for 1 image by each algorithm is as follows:
+
+1. RSA + AES + SHA-256: 56,960 μs (56.96 ms) 
+2. ECC + AES + SHA-256: 120 μs — 99% faster than RSA-based encryption.
+3. AES + SHA-256: 40 μs 
+4. Chaotic Maps + AES: 30 μs — Top Performer; ideal for high-throughput telemedicine.
+5. DNA Cryptography + AES: 40 μs — Advanced bio-inspired security with low latency.
+6. Blowfish + SHA-256: 80 μs 
+7. DES + AES + MD5: 100 μs 
+
+MSE = 0, SSIM = 1, PSNR = infinity (as no noise added and noise whenever gets added to image lowers PSNR value) for all 7 hybrid algorithms.
+
+### Entropy:
+<img width="980" height="566" alt="image" src="https://github.com/user-attachments/assets/bb85c665-dff7-4c07-9e12-e77e1782a2f5" />
+
+All algorithms scores entropy value >7.4 out of 8.
+
+For anomaly detection,
+I built the following 2 ensembled deep learning algorithms:
+1. Autoencoders + CNN
+2. GAN + CNN
 
 ## Research Publications:
 1. [Hybrid Encryption Algorithms for 2D Medical Image Security and Anomaly Detection: A Novel Approach:](https://ieeexplore.ieee.org/abstract/document/11033087)
